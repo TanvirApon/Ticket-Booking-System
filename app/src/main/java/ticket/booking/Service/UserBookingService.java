@@ -28,6 +28,11 @@ public class UserBookingService {
         loadUserListFromFile();
     }
 
+    public UserBookingService()throws IOException{
+        
+        loadUserListFromFile();
+    }
+
      
     public Boolean loginUser(){
 
