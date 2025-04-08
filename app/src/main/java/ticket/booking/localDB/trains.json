@@ -1,0 +1,43 @@
+[
+    {
+      "train_id": "subarna_express",
+      "train_no": 701,
+      "seats": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0]
+      ],
+      "station_times": {
+        "dhaka": "07:00:00",
+        "comilla": "10:30:00",
+        "chittagong": "13:15:00"
+      },
+      "stations": [
+        "dhaka",
+        "comilla",
+        "chittagong"
+      ]
+    },
+    {
+      "train_id": "silk_city_express",
+      "train_no": 753,
+      "seats": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0]
+      ],
+      "station_times": {
+        "dhaka": "14:45:00",
+        "tangail": "16:00:00",
+        "rajshahi": "20:30:00"
+      },
+      "stations": [
+        "dhaka",
+        "tangail",
+        "rajshahi"
+      ]
+    }
+  ]
+  

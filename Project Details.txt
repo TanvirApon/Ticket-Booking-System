@@ -1,0 +1,41 @@
+* Functional Requirements
+	- Able to login and Singup
+	- Fetch/ Search Trains A->B
+	- Show Avaiable Seats
+	- Book Seat
+	- Print the Ticket
+
+* LLD: Low Level Design
+  - Entitites : class that have properties 
+           # User: 
+           + User Name
+ 		   + Hashed Password
+		   + List of Tickets Booked
+		   + UUID
+  	   
+	   # Ticket:
+           + Ticket Id
+		   + User Id
+		   + Source
+		   + Destination	
+		   + Date of Travel
+		   + Train
+      	  
+	   # Train:
+		   + Train Id
+		   + Train No
+		   + Departure Time
+		   + Arrival Time
+		   + Seats
+ - Services:
+       # User Booking Service:
+        + Login User
+        + SignUp User
+	    + Fetch Booking 
+	    + Cancel Booking
+	    + Book Ticket
+      
+       # Train Service:
+	    + Search Train
+	    + Get Seats Available
+	

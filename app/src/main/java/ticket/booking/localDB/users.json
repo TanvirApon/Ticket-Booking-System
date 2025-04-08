@@ -1,0 +1,30 @@
+[
+    {
+      "user_id": "user001",
+      "name": "Rakib Hossain",
+      "hashed_password": "e99a18c428cb38d5f260853678922e03",
+      "tickets_booked": [
+        {
+          "source": "Dhaka",
+          "destination": "Chittagong",
+          "date_of_travel": "2025-04-15T06:00:00Z",
+          "train": {
+            "train_id": "subarna_express",
+            "train_no": 701,
+            "seats": [
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0]
+            ],
+            "stations": {
+              "Dhaka": "07:00 AM",
+              "Comilla": "10:30 AM",
+              "Chittagong": "01:15 PM"
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
