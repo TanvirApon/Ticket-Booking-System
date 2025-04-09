@@ -61,8 +61,12 @@ public class App {
             case 3:
                     System.out.println("Fetching your bookings");
                     userBookingService.fetchBooking();
-                break;    
-        
+                break;   
+
+            case 4:
+
+
+            
             default:
                 break;
         }
