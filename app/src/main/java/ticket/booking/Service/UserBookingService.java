@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Ticker;
 
 import ticket.booking.Util.UserServiceUtil;
+import ticket.booking.entities.Train;
 import ticket.booking.entities.User;
 
 public class UserBookingService {
@@ -101,9 +102,16 @@ public class UserBookingService {
 
     }
 
+    public List<Train>getTrains(String source, String destination){
+        try {
+            TrainService trainService = new TrainService();
 
+            return trainService.searchTrains(source,destination);
 
-
-
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        
+    }
 
 }
